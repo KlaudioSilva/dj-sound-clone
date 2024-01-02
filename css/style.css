@@ -12,6 +12,7 @@ body{
     width: 800px;
 }
 
+/* formatando o cabeçahlho */
 #cabecalho h1{
     padding: 0;
     margin-left: -3000px;
@@ -29,4 +30,35 @@ body{
     height: 69px;
     background: #7d7d7d url(../images/banner_50cent468x60.gif) no-repeat center;
     float: right; 
+}
+
+/* formantando menu esquerdo */
+#menu-left{
+    width: 151px;
+    height: 632px;
+    background: url(../images/img_menu_inf.gif) no-repeat bottom;
+}
+
+#menu-left p{
+    font-size: 0.7em;
+    color: orange;
+}
+
+#menu-left .menu-sections{
+    font-size: 0.8em;
+    font-weight: bold;
+    font-family: Fixedsys, Arial, Helvetica, sans-serif;
+}
+
+#menu-left .menu-links{
+    list-style: none;
+    padding: 0;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+#menu-left .menu-links a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.7em;
 }
