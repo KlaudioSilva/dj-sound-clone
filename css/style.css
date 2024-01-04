@@ -1,4 +1,4 @@
-/* estilizando o conteúdo do clone do site DJ Sound */
+/*** estilizando o conteúdo do clone do site DJ Sound ***/
 body{
     margin: 0;
     padding: 0;
@@ -12,7 +12,7 @@ body{
     width: 800px;
 }
 
-/* formatando o cabeçahlho */
+/*** formatando o cabeçahlho ***/
 #cabecalho h1{
     padding: 0;
     margin-left: -3000px;
@@ -32,11 +32,10 @@ body{
     float: right; 
 }
 
-/* formantando menu esquerdo */
+/*** formantando menu esquerdo ***/
 #menu-left{
     width: 148px;
-    height: 632px;
-    background: url(../images/img_menu_inf.gif) no-repeat bottom;
+    height: 644px;
     float: left;
 }
 
@@ -55,7 +54,7 @@ body{
     list-style: none;
     padding: 0;
     margin-top: 8px;
-    margin-bottom: 8px;
+    margin-bottom: 2px;
 }
 
 #menu-left .menu-links a{
@@ -64,7 +63,32 @@ body{
     font-size: 0.7em;
 }
 
-/* formatando data da edição */
+/* banners lateral esquerda */
+#menu-left .edicao-18{
+    margin-top: 5px;
+}
+
+#menu-left .edicao-18 .img-2{
+    margin-top: -5px;
+}
+
+#menu-left .banner-world-music{
+    margin-top: 5px;
+}
+
+#menu-left .banner-skol-beats{
+    margin-top: 5px;
+}
+
+#menu-left .banner-balada-forte{
+    margin-top: 5px;
+}
+
+#menu-left .banner-spot-120{
+    margin-top: 5px;
+}
+
+/*** formatando data da edição ***/
 #data-edicao{
     width: 652px;
     height: 17px;
@@ -80,19 +104,126 @@ body{
     text-align: right;
 }
 
-/* formatando conteúdo principal*/
+/*** formatando conteúdo principal ***/
 #conteudo-principal{
     width: 468px;
     float: left;
 }
 
-#conteudo-principal .titulo-quadro{
-    background: #000000 url(../images/img_news_canto02.gif) no-repeat right;
+#conteudo-principal .titulo-quadro{    
+    background: #000000 url(../images/img_news_canto02.gif) no-repeat right center;
+    width: 457px;
+    margin-top: 16px;
 }
 
-#conteudo-principal .titulo-quadro p{
+#conteudo-principal .titulo-quadro span{
     font-size: 0.8em;
     font-weight: bold;
     color: #ffffff;
     margin-left: 3px;
+}
+
+#conteudo-principal .box-noticias{
+    width: 455px;
+    height: 210px;
+    border: 1px solid #c8c8c8;
+    padding-top: 10px;
+}
+
+#conteudo-principal .box-noticias .dot{
+    color: red;
+}
+
+#conteudo-principal .box-noticias .news a{
+    margin-bottom: -10px;
+    display: block;
+    width: 250px;
+    margin-left: 10px;
+    font-size: 0.8em;
+    font-weight: bold;
+    text-decoration: none;
+    color: #000000;
+}
+
+#conteudo-principal .box-noticias .news a:hover{
+    text-decoration: underline;
+}
+
+#conteudo-principal .box-noticias .data{
+    font-weight: normal;
+}
+
+#conteudo-principal .box-noticias .news{
+    float: left;
+    margin-right: 10px;
+}
+
+#conteudo-principal .box-noticias .dj-store{
+    float: left;
+    margin-bottom: 45px;
+}
+
+#conteudo-principal .box-noticias .veja-mais{
+    clear: both;
+    display: block;
+    width: 457px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 0.9em;
+    color: #000000;
+}
+
+#conteudo-principal .box-noticias .veja-mais:hover{
+    text-decoration: underline;
+}
+
+#conteudo-principal .box-black{
+    width: 457px;
+    height: 328px;
+    background: #c2c2c2;
+}
+
+#conteudo-principal .box-black .hiphop{
+    display: block;
+    margin-top: -15px;
+    font-size: 0.9em;
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+#conteudo-principal .box-black .hiphop:hover{
+    text-decoration: underline;
+}
+
+#conteudo-principal .titulo-quadro-geral{    
+    background: #000000 url(../images/img_news_canto02.gif) no-repeat right center;
+    width: 312px;
+    margin-top: 16px;
+}
+
+#conteudo-principal .titulo-quadro-geral span{
+    font-size: 0.8em;
+    font-weight: bold;
+    color: #ffffff;
+    margin-left: 3px;
+}
+
+#conteudo-principal .kaleidoscopio{
+    width: 370px;
+}
+
+#conteudo-principal .kaleidoscopio .txt-kalei{
+    width: 170px;
+    height: 40px;
+    background: #c2c2c2;
+    font-size: 0.8em;
+    float: right;
+}
+
+#conteudo-principal .kaleidoscopio .txt-kalei p{
+    padding-left: 5px;
+    padding-top: 5px;
+    margin: 0;
 }
