@@ -61,6 +61,7 @@ body{
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 0.7em;
+    color: #0404b4;
 }
 
 /* banners lateral esquerda */
@@ -107,6 +108,7 @@ body{
 /*** formatando conteúdo principal ***/
 #conteudo-principal{
     width: 468px;
+    margin-left: 10px;
     float: left;
 }
 
@@ -123,6 +125,7 @@ body{
     margin-left: 3px;
 }
 
+/* conteúdo principal - box de notícias */
 #conteudo-principal .box-noticias{
     width: 455px;
     height: 210px;
@@ -177,6 +180,7 @@ body{
     text-decoration: underline;
 }
 
+/* conteúdo principal - box black music */
 #conteudo-principal .box-black{
     width: 457px;
     height: 328px;
@@ -197,13 +201,15 @@ body{
     text-decoration: underline;
 }
 
-#conteudo-principal .titulo-quadro-geral{    
+
+/* conteúdo principal - box kaleidoscópio */
+#conteudo-principal .titulo-kaleidoscopio{    
     background: #000000 url(../images/img_news_canto02.gif) no-repeat right center;
     width: 312px;
     margin-top: 16px;
 }
 
-#conteudo-principal .titulo-quadro-geral span{
+#conteudo-principal .titulo-kaleidoscopio span{
     font-size: 0.8em;
     font-weight: bold;
     color: #ffffff;
@@ -226,4 +232,212 @@ body{
     padding-left: 5px;
     padding-top: 5px;
     margin: 0;
+}
+
+
+/* conteúdo principal - box luka */
+#conteudo-principal .titulo-luka{    
+    margin-left: 104px;
+    background: #000000 url(../images/img_news_canto02.gif) no-repeat right center;
+    width: 312px;
+    margin-top: 16px;
+}
+
+#conteudo-principal .titulo-luka span{
+    font-size: 0.8em;
+    font-weight: bold;
+    color: #ffffff;
+    margin-left: 3px;
+}
+
+#conteudo-principal .luka{
+    width: 370px;
+    margin-left: 104px;
+}
+
+#conteudo-principal .luka .txt-luka{
+    width: 170px;
+    height: 40px;
+    background: #c2c2c2;
+    font-size: 0.8em;
+    float: left;
+}
+
+#conteudo-principal .luka .txt-luka p{
+    padding-left: 5px;
+    padding-top: 5px;
+    margin: 0;
+}
+
+/* conteúdo principal - diversos */
+#conteudo-principal .titulo-box-1{
+    background: #000000 url(../images/img_news_canto02.gif) no-repeat right center;
+    width: 248px;
+    margin-top: 16px;
+}
+
+#conteudo-principal .titulo-box-1 span{
+    font-size: 0.8em;
+    font-weight: bold;
+    color: #ffffff;
+    margin-left: 3px;
+}
+
+#conteudo-principal .mulato .txt-mulato{
+    width: 248px;
+    height: 24px;
+    background: #c2c2c2;
+    font-size: 0.8em;
+}
+
+#conteudo-principal .mulato .txt-mulato p{
+    padding-left: 5px;
+    padding-top: 5px;
+    margin: 0;
+}
+
+#conteudo-principal .tommy .txt-tommy{
+    width: 248px;
+    height: 40px;
+    background: #c2c2c2;
+    font-size: 0.8em;
+}
+
+#conteudo-principal .tommy .txt-tommy p{
+    padding-left: 5px;
+    padding-top: 5px;
+    margin: 0;
+}
+
+/*------------------------------------------------*/
+#conteudo-principal .titulo-box-2{
+    margin-left: 228px;
+    background: #000000 url(../images/img_news_canto02.gif) no-repeat right center;
+    width: 228px;
+    margin-top: 16px;
+}
+
+#conteudo-principal .titulo-box-2 span{
+    font-size: 0.8em;
+    font-weight: bold;
+    color: #ffffff;
+    margin-left: 3px;
+}
+
+#conteudo-principal .dj-mystical .txt-mystical{
+    margin-left: 228px;
+    width: 228px;
+    height: 40px;
+    background: #c2c2c2;
+    font-size: 0.8em;
+}
+
+#conteudo-principal .dj-mystical .txt-mystical p{
+    padding-left: 5px;
+    padding-top: 5px;
+    margin: 0;
+}
+
+#conteudo-principal .expo .txt-expo{
+    margin-left: 228px;
+    width: 228px;
+    height: 52px;
+    background: #c2c2c2;
+    font-size: 0.8em;
+}
+
+#conteudo-principal .expo .txt-expo p{
+    padding-left: 5px;
+    padding-top: 5px;
+    margin: 0;
+}
+
+#conteudo-principal .end-page{
+    width: 468px;
+    height: 20px;
+    margin-top: 20px;
+    background: #000000;
+}
+
+#conteudo-principal .end-page p{
+    padding: 4px;
+    font-size: 0.7em;
+    text-align: center;
+}
+
+#conteudo-principal .end-page a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#conteudo-principal .end-page a:hover{
+    text-decoration: underline;
+}
+
+#conteudo-lateral{
+    width: 159px;
+    margin-left: 5px;
+    float: left;
+}
+
+#conteudo-lateral .newsletter{
+    width: 156px;
+    height: 112px;
+    background: #7d7d7d;
+}
+
+#conteudo-lateral .newsletter span{
+    font-size: 0.9em;
+    font-weight: bold;
+    color: #ffffff;
+    margin-left: 10px;
+}
+
+#conteudo-lateral .newsletter p{
+    font-size: 0.7em;
+    margin-top: -2px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#conteudo-lateral form{
+    margin-top: -10px;
+}
+
+#conteudo-lateral .newsletter .email{
+    margin-left: 10px;
+    width: 127px;
+}
+
+#conteudo-lateral .newsletter img{
+    margin-left: 10px;
+    margin-top: 4px;
+}
+
+#conteudo-lateral .newsletter .ok{
+    padding: 0;
+    width: 22px;
+    height: 18px;
+    margin-top: 6px;
+    margin-left: 80px;
+    font-size: 0.8em;
+    font-family: Consolas, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #ffffff;
+    background: #7d7d7d;
+}
+
+#conteudo-lateral .newsletter .ok:hover{
+    cursor: pointer;
+}
+
+#conteudo-lateral .base{
+    margin-left: 12px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+#conteudo-lateral .lado{
+    float: right;
+    margin-top: -130px;
 }
