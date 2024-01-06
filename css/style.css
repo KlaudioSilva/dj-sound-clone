@@ -520,3 +520,64 @@ body{
     margin-top: 10px;
     margin-left: 10px;
 }
+
+/*** formatando o rodape ***/
+#footer{
+    width: 774px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+#footer .rodape-1{
+    width: 148px;
+    height: 100px;
+    background: url(../images/img_faixa_inf04.jpg) no-repeat bottom;
+    float: left;
+}
+
+#footer .rodape-1 span{
+    font-size: 0.7em;
+    display: block;
+}
+
+#footer .rodape-1 span:hover{
+    text-decoration: underline;
+}
+
+/*--------------------------------------*/
+#footer .rodape-2{
+    width: 607px;
+    height: 87px;
+    margin-top: 13px;
+    background: #7d7d7d;
+    float: left;
+}
+
+#footer .rodape-2 .publicidade p{
+    margin-top: -47px;
+    margin-left: 55px;
+    margin-bottom: 14px;
+    width: 68px;
+    font-size: 0.7em;
+    color: #ffffff;
+    transform: rotate(-90deg);
+}
+
+#footer .rodape-2 .banner-building{
+    margin-left: 100px;
+    margin-top: -49px;
+}
+
+#footer .rodape-2 h6{
+    color: #fff;
+    margin-left: 155px;
+    margin-top: -1px;
+}
+
+/*--------------------------------------*/
+#footer .rodape-3{
+    width: 13px;
+    height: 100px;
+    background: #7d7d7d url(../images/img_faixacinza_inf03.gif) no-repeat top;
+    float: left;
+}
