@@ -9,13 +9,13 @@ Este repositório é parte da série de estudos onde faço clones de alguns site
 
 ## :pencil2: Sobre o projeto
 
-Bem vindo ao meu projeto de estudo de criação de um clone do portal Yahoo!GeoCities.
+Bem vindo ao meu projeto de estudo recriando o site da revista DJ Sound.
 
-Neste projeto tentei criar um clone com a aparência mais fielmente possível do portal Geocities do ano de 1999.
+Assim com em outros trabalhos neste projeto tentei criar um clone com a aparência mais fielmente possível da revista do mês de outubro de 2003.
 
-Para efeito de comparação, dentro da pasta  template está o pdf com a página do GeoCities que usei para criar esse projeto.
+Para efeito de comparação, dentro da pasta  template está o pdf com a página do site que usei para me orientar durante a criação desse projeto.
 
-Todo o projeto é uma visão estática usando apenas HTML e CSS. O portal original tinha elementos em JavaScript, mas como o meu objetivo primário era apenas o desafio de criar apenas uma página estática semelhante visualmente ao portal original e treinar minhas habilidades de programação, concluo que o resultado foi satisfatório.
+Todo o projeto é uma versão estática usando apenas HTML e CSS. O site original usa elementos em JavaScript, mas como o meu objetivo primário era apenas o desafio de criar apenas uma página estática semelhante visualmente ao site original e treinar minhas habilidades em HTML e CSS, concluo que o resultado foi satisfatório.
 
 <br>
 
@@ -30,5 +30,5 @@ Todo o projeto é uma visão estática usando apenas HTML e CSS. O portal origin
 <br>
 
 ## :heavy_exclamation_mark: Observações importantes
-Toda a concepção visual do portal GeoCities e os demais arquivos de imagens utilizados aqui, pertencem aos seus respectivos donos.
+Toda a concepção visual do site DJ Sound e os demais arquivos de imagens utilizados aqui, pertencem aos seus respectivos donos.
 Todo o trabalho desenvolvido aqui é de uso extritamente para exercícios e práticas de habilidade.
