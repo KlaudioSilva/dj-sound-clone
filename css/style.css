@@ -352,6 +352,7 @@ body{
     margin: 0;
 }
 
+/* últimos links do conteúdo principal */
 #conteudo-principal .end-page{
     width: 468px;
     height: 20px;
@@ -374,12 +375,14 @@ body{
     text-decoration: underline;
 }
 
+/*** formatando o conteúdo da coluna lateral direita ***/
 #conteudo-lateral{
     width: 159px;
     margin-left: 5px;
     float: left;
 }
 
+/* box formulário da newsletter */
 #conteudo-lateral .newsletter{
     width: 156px;
     height: 112px;
@@ -440,4 +443,80 @@ body{
 #conteudo-lateral .lado{
     float: right;
     margin-top: -130px;
+}
+
+/* techno records */
+#conteudo-lateral .techno{
+    text-align: center;
+    margin-top: -10px;
+}
+
+#conteudo-lateral .techno p{
+    font-size: 0.8em;
+    margin-top: -3px;
+}
+
+#conteudo-lateral .techno a{
+    color: #000000;
+    text-decoration: none;
+}
+
+#conteudo-lateral .techno a:hover{
+    text-decoration: underline;
+}
+
+/* compre aqui e discos */
+#conteudo-lateral .compre-aqui{
+    text-align: center;
+}
+
+#conteudo-lateral .compre-aqui .compre{
+    margin-bottom: 10px;
+}
+
+#conteudo-lateral .compre-aqui p{
+    font-size: 0.7em;
+    font-weight: bold;
+    margin-top: -4px;
+}
+
+#conteudo-lateral .compre-aqui a{
+    text-decoration: none;
+    color: #000000;
+}
+
+#conteudo-lateral .compre-aqui span{
+    font-weight: normal;
+}
+
+/* banners diversos */
+#conteudo-lateral .sortudos{
+    width: 132px;
+    height: 67px;
+    margin-left: 10px;
+    background: #7d7d7d;
+}
+
+#conteudo-lateral .sortudos p{
+    margin-left: 10px;
+    margin-right: 20px;
+    padding-top: 20px;
+    margin-bottom: 0;
+    font-size: 0.8em;
+    color: #ffffff;
+}
+
+#conteudo-lateral .base-2{
+    margin-left: 10px;
+}
+
+#conteudo-lateral .lado-2{
+    margin-top: -80px;
+    margin-left: -6px;
+}
+
+/*----------------------------------------*/
+#conteudo-lateral .banners{
+    margin-top: 10px;
+    margin-left: 10px;
 }
