@@ -24,8 +24,8 @@ Todo o projeto é uma versão estática usando apenas HTML e CSS. O site origina
 
 <br>
 
-## :eyeglasses: Veja o projeto
-<a href="https://klaudiosilva.github.io/geocities-portal-clone/">Yahoo!GeoCities Clone</a>
+## :eyeglasses: Veja o projeto finalizado
+<a href="https://klaudiosilva.github.io/dj-sound-clone/">DJ Sound - clone site</a>
 
 <br>
 
