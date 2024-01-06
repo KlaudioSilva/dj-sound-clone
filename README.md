@@ -1,5 +1,5 @@
 # Site da revista DJ Sound - clone
-![Logotipo da revista e do site DJ Sound](https://github.com/KlaudioSilva/dj-sound-clone/blob/main/images/lg_djsound.gif)
+![Logotipo da revista e do site DJ Sound](https://github.com/KlaudioSilva/dj-sound-clone/blob/main/images/lg_djsound_2.jpg)
 
 Este repositório é parte da série de estudos onde faço clones de alguns sites ou portais reais.
 
